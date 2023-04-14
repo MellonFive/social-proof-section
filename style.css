@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body * {
+  font-size: 15px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 3em auto 0;
+}
+
+header > .title {
+  border: 2px solid yellow;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  width: 30%;
+  color: hsl(300, 43%, 22%);
+}
+
+header > .titleparagraph {
+  border: 5px solid red;
+  width: 40%;
+}
