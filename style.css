@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+}
 
 body * {
   font-size: 15px;
