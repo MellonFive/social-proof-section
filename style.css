@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
   --Very-Dark-Magenta: hsl(300, 43%, 22%);
@@ -14,19 +15,38 @@ body * {
 }
 
 .container {
-  width: 80%;
-  margin: 3em auto 0;
+  width: 95%;
+  margin: 4em auto 0;
 }
 
-header > .title {
-  border: 2px solid yellow;
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .title {
   font-size: 2.5em;
   margin-bottom: 1em;
-  width: 30%;
-  color: hsl(300, 43%, 22%);
+  width: 60%;
+  color: var(--Very-Dark-Magenta);
 }
 
-header > .titleparagraph {
-  border: 5px solid red;
-  width: 40%;
+header .titleparagraph {
+  word-spacing: .3em;
+  width: 70%;
+  color: var(--Dark-Grayish-Magenta);
+  line-height: 1em;
+}
+
+header .itens {
+  border: 1px solid red;
+  width: 100%;
+  padding-top: 1.5em;
+}
+
+header .item {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px solid yellow;
 }
