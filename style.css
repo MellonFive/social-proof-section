@@ -16,7 +16,7 @@ body * {
 }
 
 .container {
-  width: 95vw;
+  width: 85%;
   margin: 4em auto 0;
 }
 
@@ -26,12 +26,11 @@ header {
 }
 
 .apresent {
-  border: 2px solid green;
-  width: 35%;
+  width: 50%;
 }
 
 header .title {
-  font-size: 2.5em;
+  font-size: 2.7em;
   margin-bottom: 1em;
   width: 50%;
   color: var(--Very-Dark-Magenta);
@@ -45,29 +44,51 @@ header .titleparagraph {
 }
 
 header .itens {
-  border: 1px solid red;
-  width: 70%;
+  width: 60%;
+  position: relative;
 }
 
-header .item { 
-  border: 1px solid yellow;
-  height: 2em;
-  padding: 1em 2.5em 2em;
-  line-height: 1.1em;
+header .itens ul {
+  list-style: none;
+}
+
+header .first,
+header .second,
+header .third {
+  height: 3.5em;
+  padding: 1em 1.5em .7em;
   background-color: var(--Light-Grayish-Magenta);
   border-radius: .5em;
+  width: 60%;
+  margin: 0 auto;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-header .itens .item svg {
-  margin-left: .3em ;
+header .itens .first {
+  position: absolute;
+  top: 7%;
+  left: 18%;
 }
 
-header .itens .item p {
-  margin-left: 1em ;
+header .itens .second {
+  position: absolute;
+  top: 39%;
+  left: 23%;
+}
+
+header .itens .third {
+  position: absolute;
+  top: 72%;
+  left: 28%;
+}
+
+header .itens .stars svg {
+  margin: 0 .2em;
+}
+
+header .itens span {
   color: var(--Very-Dark-Magenta);
   font-weight: 700;
-  border: 2px solid red;
 }
