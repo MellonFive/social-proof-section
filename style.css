@@ -26,7 +26,6 @@ header {
 
   position: relative;
 
-  border: 1px solid red;
   margin-bottom: 2em;
 }
 
@@ -100,8 +99,4 @@ header .itens .stars svg {
 header .itens span {
   color: var(--Very-Dark-Magenta);
   font-weight: 700;
-}
-
-section {
-  border: 1;
 }
