@@ -23,6 +23,8 @@ body * {
 header {
   display: flex;
   justify-content: space-between;
+
+  position: relative;
 }
 
 .apresent {
@@ -45,7 +47,6 @@ header .titleparagraph {
 
 header .itens {
   width: 60%;
-  position: relative;
 }
 
 header .itens ul {
@@ -59,29 +60,34 @@ header .third {
   padding: 1em 1.5em .7em;
   background-color: var(--Light-Grayish-Magenta);
   border-radius: .5em;
-  width: 60%;
+  width: 33%;
   margin: 0 auto;
 
   display: flex;
   justify-content: space-between;
 }
 
+header .first,
+header .third {
+  width: 31%;
+}
+
 header .itens .first {
   position: absolute;
   top: 7%;
-  left: 18%;
+  left: 50%;
 }
 
 header .itens .second {
   position: absolute;
   top: 39%;
-  left: 23%;
+  left: 55%;
 }
 
 header .itens .third {
   position: absolute;
   top: 72%;
-  left: 28%;
+  left: 60%;
 }
 
 header .itens .stars svg {
