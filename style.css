@@ -17,7 +17,7 @@ body * {
 
 .container {
   width: 85%;
-  margin: 4em auto 0;
+  margin: 3em auto 0;
 }
 
 header {
@@ -25,6 +25,9 @@ header {
   justify-content: space-between;
 
   position: relative;
+
+  border: 1px solid red;
+  margin-bottom: 2em;
 }
 
 .apresent {
@@ -97,4 +100,8 @@ header .itens .stars svg {
 header .itens span {
   color: var(--Very-Dark-Magenta);
   font-weight: 700;
+}
+
+section {
+  border: 1;
 }
