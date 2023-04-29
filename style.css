@@ -92,6 +92,10 @@ header .itens .third {
   left: 60%;
 }
 
+header .itens .stars {
+  margin-top: -.2em;
+}
+
 header .itens .stars svg {
   margin: 0 .2em;
 }
