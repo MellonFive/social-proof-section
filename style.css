@@ -8,6 +8,7 @@
   --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
   --Very-Dark-Magenta: hsl(300, 43%, 22%);
   --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --Soft-Pink: hsl(333, 80%, 67%);
 }
 
 body * {
@@ -16,8 +17,8 @@ body * {
 }
 
 .container {
-  width: 85%;
-  margin: 3em auto 0;
+  width: 82%;
+  margin: 5em auto;
 }
 
 header {
@@ -26,7 +27,7 @@ header {
 
   position: relative;
 
-  margin-bottom: 2em;
+  margin-bottom: 2em auto;
 }
 
 .apresent {
@@ -62,17 +63,17 @@ header .third {
   padding: 1em 1.5em .7em;
   background-color: var(--Light-Grayish-Magenta);
   border-radius: .5em;
-  width: 33%;
+  width: 37%;
   margin: 0 auto;
 
   display: flex;
   justify-content: space-between;
 }
 
-header .first,
+/* header .first,
 header .third {
   width: 31%;
-}
+} */
 
 header .itens .first {
   position: absolute;
@@ -82,18 +83,14 @@ header .itens .first {
 
 header .itens .second {
   position: absolute;
-  top: 39%;
+  top: 42%;
   left: 55%;
 }
 
 header .itens .third {
   position: absolute;
-  top: 72%;
+  top: 78%;
   left: 60%;
-}
-
-header .itens .stars {
-  margin-top: -.2em;
 }
 
 header .itens .stars svg {
@@ -103,4 +100,67 @@ header .itens .stars svg {
 header .itens span {
   color: var(--Very-Dark-Magenta);
   font-weight: 700;
+}
+
+section .client {
+  display: flex;
+  gap: 3.5em;
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
+
+section .client .clients {
+  border-radius: .7em;
+  padding: 2em 2em;
+  /* width: 30%; */
+  margin: 0 auto;
+  background-color: var(--Very-Dark-Magenta);
+
+  position: relative;
+}
+
+section .client .clients.position-1 {
+  position: absolute;
+  left: 9%;
+  top: 50%;
+  width: 25%;
+}
+
+section .client .clients.position-2 {
+  position: absolute;
+  left: 36%;
+  top: 53%;
+  width: 25%;
+}
+
+section .client .clients.position-3 {
+  position: absolute;
+  left: 63%;
+  top: 57%;
+  width: 25%;
+}
+
+section .client .clients .introduction {
+  display: flex;
+}
+
+section .client .clients .introduction img {
+  border-radius: 50%;
+  width: 4em;
+  margin-right: 1.7em;
+  margin-bottom: 1.5em;
+}
+
+section .client .clients .introduction .name .client-name {
+  color: var(--Light-Grayish-Magenta);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+section .client .clients .introduction .name .profission {
+  color: var(--Soft-Pink);
+}
+
+section .client .clients .description {
+  color: var(--Light-Grayish-Magenta);
 }
