@@ -105,8 +105,11 @@ header .itens span {
 section .client {
   display: flex;
   gap: 3.5em;
+
   margin-top: 6em;
   margin-bottom: 3em;
+
+  position: relative;
 }
 
 section .client .clients {
@@ -115,8 +118,6 @@ section .client .clients {
   /* width: 30%; */
   margin: 0 auto;
   background-color: var(--Very-Dark-Magenta);
-
-  position: relative;
 }
 
 section .client .clients.position-1 {
